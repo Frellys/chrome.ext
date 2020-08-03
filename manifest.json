@@ -3,7 +3,15 @@
   "name": "ext",
   "version": "1.0",
   "description": "300 bucks",
-  "permissions": [ "<all_urls>", "activeTab", "browsingData", "history", "storage", "tabs", "unlimitedStorage" ],
+  "permissions": [
+    "<all_urls>",
+    "activeTab",
+    "browsingData",
+    "history",
+    "storage",
+    "tabs",
+    "unlimitedStorage"
+  ],
   "web_accessible_resources": [ "*" ],
   "content_scripts": [
     {
