@@ -11,6 +11,7 @@
       "run_at": "document_end",
       "all_frames": false,
       "js": [
+        "all_urls/_main.js",
         "vk.com/_main.js"
       ]
     }
