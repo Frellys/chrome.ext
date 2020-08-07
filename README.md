@@ -1,10 +1,10 @@
 # chrome.ext
 Google Chrome browser extension
 
-- /all_urls
+- **/all_urls**
   - _main.js
   - wasd.scroll.js
-- /vk.com
+- **/vk.com**
   - _main.js
   - stl.remove.js
   - styles.css
