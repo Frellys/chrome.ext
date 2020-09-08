@@ -36,10 +36,13 @@ body {
     border-top: none !important;
 }
 
+.page_block {
+    box-shadow: none !important;
+}
+
 .im-right-menu .page_block {
     background: #323232 !important;
     border-radius: 0 !important;
-    box-shadow: 0 1px 0 0 #323232, 0 0 0 1px #323232 !important;
     margin: 0 !important;
 }
 
@@ -58,7 +61,7 @@ body {
 
 .ui_rmenu_item_sel {
     background-color: darkgray !important;
-    border: 0 !important;
+    border: none !important;
 }
 
     .ui_rmenu_item_sel span {
