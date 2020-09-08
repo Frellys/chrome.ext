@@ -1,0 +1,27 @@
+#friends_filters_block > #filter_form
+div.search_filter_main {
+    margin: 0 !important;
+    padding: 0 0 10px !important;
+}
+
+#friends_filters_block > #filter_form
+div#school_header {
+    margin: 0 !important;
+    padding: 0 0 10px !important;
+}
+
+#friends_filters_block > #filter_form
+div#uni_header {
+    margin: 0 !important;
+    padding: 0 0 10px !important;
+}
+
+#friends_filters_block > #filter_form
+div.search_inner_filter {
+    margin-bottom: 0 !important;
+}
+
+#friends_filters_block > #filter_form
+div.search_sep {
+    display: none !important;
+}
