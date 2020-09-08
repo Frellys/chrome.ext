@@ -1,24 +1,53 @@
 #friends_filters_block > #filter_form {
-    background-color: #fff;
-    border-radius: 4px;
+    background-color: #fff !important;
+    border-radius: 4px !important;
 }
+
+    #friends_filters_block > #filter_form
+    #search_filters_minimized:not(.search_filters_minimized.page_block.ui_rmenu_item_expanded) {
+        padding: 10px 10px 5px 10px !important;
+    }
 
     #friends_filters_block > #filter_form
     div.search_filter_main {
         margin: 0 !important;
-        padding: 0 0 10px !important;
+        padding: 0 0 5px !important;
     }
 
     #friends_filters_block > #filter_form
     div#school_header {
         margin: 0 !important;
-        padding: 0 0 10px !important;
+        padding: 0 0 5px !important;
     }
 
     #friends_filters_block > #filter_form
     div#uni_header {
         margin: 0 !important;
-        padding: 0 0 10px !important;
+        padding: 0 0 5px !important;
+    }
+
+    #friends_filters_block > #filter_form
+    div.radiobtn {
+        margin: 0 0 5px !important;
+    }
+
+    #friends_filters_block > #filter_form
+    div.search_filter_shut,
+    #friends_filters_block > #filter_form
+    div.search_filter_open {
+        margin: 0 !important;
+        padding: 0 0 5px !important;
+    }
+
+    #friends_filters_block > #filter_form
+    div.search_checkboxes {
+        padding: 4px 0 0 !important;
+        margin: 0 0 10px !important;
+    }
+
+    #friends_filters_block > #filter_form
+    div.checkbox {
+        margin: 0 0 5px !important;
     }
 
     #friends_filters_block > #filter_form
@@ -31,6 +60,14 @@
         display: none !important;
     }
 
-#friends_import_block {
-    display: none;
+div#friends_search_import {
+    display: none !important;
+}
+
+div#friends_import_block {
+    display: none !important;
+}
+
+div#friends_import_stub {
+    display: none !important;
 }
