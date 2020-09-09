@@ -9,13 +9,13 @@ if (window.location.hostname == 'vk.com') {
             ]
         }
     });
-    // friends
+    // /friends
     if (window.location.pathname == '/friends') {
         chrome.runtime.sendMessage({
             msg: {
                 url: 'vk.com',
                 cmds: [
-                    { name: 'insertCSS', file: 'vk.com/pn.friends.css' },
+                    { name: 'insertCSS', file: 'vk.com/pn.friends.css' }
                 ]
             }
         });
