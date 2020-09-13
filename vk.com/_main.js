@@ -15,7 +15,8 @@ if (window.location.hostname == 'vk.com') {
             msg: {
                 url: 'vk.com',
                 cmds: [
-                    { name: 'insertCSS', file: 'vk.com/pn.friends.css' }
+                    { name: 'insertCSS', file: 'vk.com/pn_friends.css' },
+                    { name: 'executeScript', file: 'vk.com/pn_friends.shutTabs.js' }
                 ]
             }
         });
