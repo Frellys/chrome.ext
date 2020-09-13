@@ -58,7 +58,10 @@
         #friends_filters_block > #filter_form
         div.search_inner_filter#age_filter
         div.result_list {
+            height: 350px !important;
+            bottom: 0 !important;
             box-shadow: 0 0 1vmin #323232 !important;
+            transform: translate(0, 50%) !important;
         }
 
             #friends_filters_block > #filter_form
@@ -71,6 +74,7 @@
         div.search_inner_filter#marital_filter
         div.result_list {
             height: auto !important;
+            bottom: 0 !important;
             box-shadow: 0 0 1vmin #323232 !important;
         }
 
