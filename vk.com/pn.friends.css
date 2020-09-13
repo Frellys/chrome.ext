@@ -55,6 +55,19 @@
         margin-bottom: 0 !important;
     }
 
+        #friends_filters_block > #filter_form
+        div.search_inner_filter#marital_filter
+        div.result_list {
+            height: auto !important;
+            box-shadow: 0 0 1vmin #323232 !important;
+        }
+
+            #friends_filters_block > #filter_form
+            div.search_inner_filter#marital_filter
+            div.result_list > ul > li {
+                padding: 5px 0 5px 9px !important;
+            }
+
     #friends_filters_block > #filter_form
     div.search_sep {
         display: none !important;
