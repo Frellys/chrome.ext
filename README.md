@@ -5,7 +5,7 @@ Google Chrome browser extension
 - set.mute.js - **"Ctrl + M"** to mute/unmute each tab
 
 ### /steam.com
-- in progress
+- in progress ...
 
 ### /vk.com
 - pn_friends.shutTabs.js - collapses friend search options
