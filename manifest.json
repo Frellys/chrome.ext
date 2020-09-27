@@ -11,12 +11,16 @@
       "run_at": "document_end",
       "all_frames": false,
       "js": [
+        "all_urls/_main.js",
         "vk.com/_main.js"
       ]
     }
   ],
   "background": {
-    "scripts": [ "core.js" ],
+    "scripts": [
+      "core.js",
+      "function.mute.js"
+    ],
     "persistent": false
   }
 }
