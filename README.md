@@ -8,6 +8,6 @@ Google Chrome browser extension
 - in progress
 
 ### /vk.com
-- rm.stl.js - removes "Go up" div
 - pn_friends.shutTabs.js - collapses friend search options
+- rm.stl.js - removes "Go up" div
 - *.css - styles obv
