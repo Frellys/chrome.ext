@@ -1,3 +1,6 @@
+let core = {
+    muted: false
+};
 chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
     request.msg.cmds.forEach(function (cmd) {
         switch (cmd.name) {
