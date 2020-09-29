@@ -4,8 +4,5 @@ function mute(sendResponse) {
             chrome.tabs.update(tab.id, { muted: !core.muted });
         });
         core.muted = !core.muted;
-        //sendResponse({
-        //    tabs: tabs
-        //});
     });
 }

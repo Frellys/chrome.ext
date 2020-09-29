@@ -4,7 +4,10 @@ window.addEventListener('keypress', function (e) {
         chrome.runtime.sendMessage({
             msg: {
                 cmds: [
-                    { name: 'invoke', function: 'mute' }
+                    {
+                        name: 'invoke',
+                        function: 'mute'
+                    }
                 ]
             }
         });
