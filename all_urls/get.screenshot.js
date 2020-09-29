@@ -8,7 +8,7 @@ window.addEventListener('keyup', function (e) {
             }
         }, function (response) {
             let link = document.createElement('a');
-            link.download = Date.now() + '.png';
+            link.download = window.location.hostname.toString() + '_' + Date.now() + '.png';
             link.href = response.data;
             link.click();
         });
