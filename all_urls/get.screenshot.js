@@ -7,11 +7,10 @@ window.addEventListener('keyup', function (e) {
                 ]
             }
         }, function (response) {
-            let image = new Image();
-            image.addEventListener('load', function () {
-                document.body.appendChild(image);
-            }, { once: true });
-            image.src = response.data;
+            let link = document.createElement('a');
+            link.download = Date.now() + '.png';
+            link.href = response.data;
+            link.click();
         });
     }
 }, false);
