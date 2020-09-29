@@ -3,7 +3,11 @@ window.addEventListener('keyup', function (e) {
         chrome.runtime.sendMessage({
             msg: {
                 cmds: [
-                    { name: 'debug', fullscreen: e.shiftKey }
+                    {
+                        name: 'invoke',
+                        function: 'screenshot',
+                        fullscreen: e.shiftKey
+                    }
                 ]
             }
         }, function (response) {

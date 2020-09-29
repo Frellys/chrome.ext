@@ -19,7 +19,8 @@
   "background": {
     "scripts": [
       "core.js",
-      "function.mute.js"
+      "function.mute.js",
+      "function.screenshot.js"
     ],
     "persistent": false
   }
