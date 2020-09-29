@@ -1,3 +1,5 @@
-window.addEventListener('keypress', function (e) {
-    console.log(e);
+window.addEventListener('keyup', function (e) {
+    if (e.code == 'PrintScreen' && e.ctrlKey) {
+        console.log(e);
+    }
 }, false);
