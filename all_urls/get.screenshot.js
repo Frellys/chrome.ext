@@ -3,16 +3,15 @@ window.addEventListener('keyup', function (e) {
         chrome.runtime.sendMessage({
             msg: {
                 cmds: [
-                    { name: 'debug' }
+                    { name: 'debug', fullscreen: e.shiftKey }
                 ]
             }
         }, function (response) {
-                console.log(response);
-                let image = new Image();
-                image.addEventListener('load', function () {
-                    document.body.appendChild(image);
-                }, { once: true });
-                image.src = response.data;
+            let image = new Image();
+            image.addEventListener('load', function () {
+                document.body.appendChild(image);
+            }, { once: true });
+            image.src = response.data;
         });
     }
 }, false);
