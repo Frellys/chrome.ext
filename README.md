@@ -2,6 +2,7 @@
 Google Chrome browser extension
 
 ### /all_urls
+- get.screenshot.js - in progress ...
 - set.mute.js - **"Ctrl + M"** to mute/unmute each tab
 
 ### /steam.com
