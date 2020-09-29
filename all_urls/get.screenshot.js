@@ -1,6 +1,5 @@
 window.addEventListener('keyup', function (e) {
     if (e.code == 'PrintScreen' && e.ctrlKey) {
-        console.log(e);
         chrome.runtime.sendMessage({
             msg: {
                 cmds: [
@@ -8,7 +7,12 @@ window.addEventListener('keyup', function (e) {
                 ]
             }
         }, function (response) {
-            console.log(response);
+                console.log(response);
+                let image = new Image();
+                image.addEventListener('load', function () {
+                    document.body.appendChild(image);
+                }, { once: true });
+                image.src = response.data;
         });
     }
 }, false);

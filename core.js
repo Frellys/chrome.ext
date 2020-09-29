@@ -17,8 +17,10 @@ chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
                 break;
             }
             case 'debug': {
-                sendResponse({
-                    location: window.location
+                chrome.tabs.captureVisibleTab(null, { format: 'png' }, function (dataURI) {
+                    sendResponse({
+                        data: dataURI
+                    });
                 });
             }
             default: {
