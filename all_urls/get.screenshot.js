@@ -1,6 +1,10 @@
 window.addEventListener('keyup', function (e) {
     if (e.code == 'PrintScreen' && e.ctrlKey) {
+        let defaultHTMLcssText = document.querySelector('html').style.cssText;
+        //document.querySelector('html').style.cssText += defaultHTMLcssText == '' ? 'overflow: hidden !important;' : defaultHTMLcssText + ' overflow: hidden !important;';
+        //document.querySelector('html').style.cssText += ((defaultHTMLcssText == '' ? '' : ' ') + 'overflow: hidden !important;');
         document.querySelector('html').style.cssText = 'overflow: hidden !important;';
+        document.body.style.cssText = 'overflow: hidden !important;';
         setTimeout(function () {
             chrome.runtime.sendMessage({
                 msg: {
@@ -13,6 +17,7 @@ window.addEventListener('keyup', function (e) {
                     ]
                 }
             }, function (response) {
+                //document.querySelector('html').style.cssText = defaultHTMLcssText;
                 let link = document.createElement('a');
                 link.download = window.location.hostname.toString() + '_' + Date.now() + '.png';
                 link.href = response.data;
