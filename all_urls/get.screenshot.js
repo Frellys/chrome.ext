@@ -1,5 +1,12 @@
 window.addEventListener('keyup', function (e) {
     if (e.code == 'PrintScreen' && e.ctrlKey) {
+        let tags = [
+            { name: 'html' },
+            { name: 'body' }
+        ];
+        tags.forEach(function (tag) {
+            tag.cssText = document.querySelector(tag.name).cssText;
+        });
         let defaultHTMLcssText = document.querySelector('html').style.cssText;
         //document.querySelector('html').style.cssText += defaultHTMLcssText == '' ? 'overflow: hidden !important;' : defaultHTMLcssText + ' overflow: hidden !important;';
         //document.querySelector('html').style.cssText += ((defaultHTMLcssText == '' ? '' : ' ') + 'overflow: hidden !important;');
@@ -23,6 +30,6 @@ window.addEventListener('keyup', function (e) {
                 link.href = response.data;
                 link.click();
             });
-        }, 0);
+        }, 100);
     }
 }, false);
