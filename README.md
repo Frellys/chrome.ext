@@ -2,7 +2,7 @@
 Google Chrome browser extension
 
 ### /all_urls
-- get.screenshot.js - **"Ctrl + PrtScr"** to capture screenshot of active tab
+- get.screenshot.js - **"Ctrl + PrtScr"** to capture visible area of active tab
 - set.mute.js - **"Ctrl + M"** to mute/unmute each tab
 
 ### /steam.com
