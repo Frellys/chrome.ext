@@ -4,8 +4,8 @@ if (window.location.hostname == 'steam.com') {
         msg: {
             url: 'steam.com',
             cmds: [
-                { name: 'insertCSS', file: 'vk.com/_main.styles.css' },
-                { name: 'executeScript', file: 'vk.com/rm.stl.js' }
+                { name: 'insertCSS', file: '' },
+                { name: 'executeScript', file: '' }
             ]
         }
     });
