@@ -6,6 +6,5 @@ window.addEventListener('keydown', function (e) {
                 // request animation frame here
             }
         }
-        else this.window.screenY = 0;
     }
 }, false);
