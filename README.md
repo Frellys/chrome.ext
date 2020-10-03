@@ -4,6 +4,7 @@ Google Chrome browser extension
 ### /all_urls
 - get.screenshot.js - **"Ctrl + PrtScr"** to capture visible area of active tab
 - set.mute.js - **"Ctrl + M"** to mute/unmute all tabs
+- set.wasdScroll.js - in progress ...
 
 ### /steam.com
 - in progress ...
