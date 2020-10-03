@@ -21,4 +21,15 @@ if (window.location.hostname == 'vk.com') {
             }
         });
     }
+    // im
+    if (window.location.pathname == '/im') {
+        chrome.runtime.sendMessage({
+            msg: {
+                url: 'vk.com',
+                cmds: [
+                    { name: 'executeScript', file: 'vk.com/pn_im.peerShortcut.js' }
+                ]
+            }
+        });
+    }
 }
