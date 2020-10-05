@@ -1,7 +1,10 @@
 {
     setShortcuts();
-    let observer = new MutationObserver(function (mutation) {
-        console.log(mutation);
+    let observer = new MutationObserver(function () {
+        document.querySelectorAll('div._im_ui_peers_list > a > span > span._im_r_tx > span.peerNum').forEach(function (el) {
+            el.remove();
+        });
+        setShortcuts();
     });
     observer.observe(document.querySelector('div._im_ui_peers_list'), {
         childList: true
