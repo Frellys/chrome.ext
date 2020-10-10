@@ -31,6 +31,7 @@ body {
     background: #000 !important;
     border-bottom: none !important;
 }
+
     #page_header_cont .input_back .input_back_content {
         color: wheat !important;
     }
@@ -39,6 +40,15 @@ body {
         border-radius: 0 !important;
         background: #323232 !important;
         color: wheat !important;
+    }
+
+#top_profile_menu {
+    border-radius: 0 !important;
+    box-shadow: none !important;
+}
+
+    #top_profile_menu .top_profile_sep {
+        display: none !important;
     }
 
 .im-page_classic .im-page--chat-header {
