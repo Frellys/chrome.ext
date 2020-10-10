@@ -31,6 +31,9 @@ body {
     background: #000 !important;
     border-bottom: none !important;
 }
+    #page_header_cont .input_back .input_back_content {
+        color: wheat !important;
+    }
 
     #page_header_cont .TopSearch__input {
         border-radius: 0 !important;
@@ -100,12 +103,6 @@ body {
     border-bottom: solid 15px #000 !important;
     border-left: solid 1px #000 !important;
     border-right: solid 2px #000 !important;
-}
-
-input.text.ts_input {
-    border-radius: 0 !important;
-    background: #323232 url(/images/svg_icons/ic_head_loupe.svg) no-repeat !important;
-    background-position: left 8px !important;
 }
 
 .chat_onl_wrap {
