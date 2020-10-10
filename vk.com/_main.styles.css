@@ -27,7 +27,7 @@ body {
     display: none !important;
 }
 
-#page_header_cont .back {
+#page_header_cont {
     background: #000 !important;
     border-bottom: none !important;
 }
