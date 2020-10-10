@@ -32,6 +32,12 @@ body {
     border-bottom: none !important;
 }
 
+    #page_header_cont .TopSearch__input {
+        border-radius: 0 !important;
+        background: #323232 !important;
+        color: wheat !important;
+    }
+
 .im-page_classic .im-page--chat-header {
     border-top: none !important;
 }
