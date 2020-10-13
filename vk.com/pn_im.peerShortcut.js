@@ -14,11 +14,11 @@
             if (peer.querySelector('span.peerNum')) {
                 peer.querySelector('span.peerNum').remove();
             }
-            if (pdx < 10) {
+            if (pdx < 9) {
                 let span = document.createElement('span');
                 span.className = 'peerNum';
                 span.style.fontFamily = 'monospace';
-                span.innerHTML = pdx + '&nbsp;';
+                span.innerHTML = (pdx + 1).toString() + '&nbsp;';
                 peer.prepend(span);
             }
         });
