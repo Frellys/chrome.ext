@@ -5,9 +5,6 @@ window.addEventListener('keyup', function (e) {
             { name: 'body' }
         ];
         tags.forEach(function (tag) {
-            // working
-            //tag.cssText = document.querySelector(tag.name).style.cssText;
-            //document.querySelector(tag.name).style.cssText += (tag.cssText == '' ? '' : ' ') + 'overflow: hidden !important;';
             tag.cssText = document.querySelector(tag.name).style.cssText;
             if (tag.cssText == '') {
                 document.querySelector(tag.name).style.cssText = 'overflow: hidden !important;';
