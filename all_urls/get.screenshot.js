@@ -1,5 +1,5 @@
 window.addEventListener('keyup', function (e) {
-    if (e.code == 'PrintScreen' && e.ctrlKey) {
+    if (e.ctrlKey && e.code == 'PrintScreen') {
         let tags = [
             { name: 'html' },
             { name: 'body' }
