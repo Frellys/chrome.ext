@@ -2,7 +2,7 @@ body {
     background-color: #000 !important;
 }
 
-#side_bar ol li .left_row {
+#side_bar ol li .left_label {
     color: wheat !important;
 }
 
@@ -31,6 +31,10 @@ body {
     background: #000 !important;
     border-bottom: none !important;
 }
+    #page_header_cont a.top_home_link {
+        background-color: plum !important;
+        padding-left: 1vmin !important;
+    }
 
     #page_header_cont .input_back .input_back_content {
         color: wheat !important;
