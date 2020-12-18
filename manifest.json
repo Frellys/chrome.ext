@@ -18,9 +18,9 @@
   ],
   "background": {
     "scripts": [
-      "core.js",
-      "function.mute.js",
-      "function.screenshot.js"
+      "background/_core.js",
+      "background/mute.js",
+      "background/screenshot.js"
     ],
     "persistent": false
   }
