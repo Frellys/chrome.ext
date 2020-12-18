@@ -10,10 +10,13 @@
       "matches": [ "<all_urls>" ],
       "run_at": "document_end",
       "all_frames": false,
-      "js": [
-        "all_urls/_main.js",
-        "vk.com/_main.js"
-      ]
+      "js": [ "content/all_urls/_main.js" ]
+    },
+    {
+      "matches": [ "https://vk.com/*" ],
+      "run_at": "document_end",
+      "all_frames": false,
+      "js": [ "vk.com/_main.js" ]
     }
   ],
   "background": {
@@ -23,5 +26,13 @@
       "background/screenshot.js"
     ],
     "persistent": false
+  },
+  "commands": {
+    "mute": {
+      "description": "mute/unmute all tabs",
+      "suggested_key": {
+        "default": "Ctrl+M"
+      }
+    }
   }
 }
