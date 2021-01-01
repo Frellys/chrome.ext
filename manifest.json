@@ -16,7 +16,7 @@
       "matches": [ "https://vk.com/*" ],
       "run_at": "document_end",
       "all_frames": false,
-      "js": [ "vk.com/_main.js" ]
+      "js": [ "content/vk.com/_main.js" ]
     }
   ],
   "background": {
