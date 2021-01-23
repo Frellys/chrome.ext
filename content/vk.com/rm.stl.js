@@ -3,6 +3,6 @@
  * @return {void}
  */
 (function () {
-    if (document.querySelector('#stl_left') != null) document.querySelector('#stl_left').remove();
-    if (document.querySelector('#stl_side') != null) document.querySelector('#stl_side').remove();
+    document.querySelector('#stl_left')?.remove();
+    document.querySelector('#stl_side')?.remove();
 })();
