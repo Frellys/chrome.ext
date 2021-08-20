@@ -1,38 +1,11 @@
 {
-  "manifest_version": 2,
+  "manifest_version": 3,
   "name": "ext",
   "version": "1.0",
+  "default_locale": "en",
   "description": "300 bucks",
-  "permissions": [ "<all_urls>", "activeTab", "browsingData", "tabs" ],
-  "web_accessible_resources": [ "*" ],
-  "content_scripts": [
-    {
-      "matches": [ "<all_urls>" ],
-      "run_at": "document_end",
-      "all_frames": false,
-      "js": [ "content/all_urls/_main.js" ]
-    },
-    {
-      "matches": [ "https://vk.com/*" ],
-      "run_at": "document_end",
-      "all_frames": false,
-      "js": [ "content/vk.com/_main.js" ]
-    }
-  ],
   "background": {
-    "scripts": [
-      "background/_core.js",
-      "background/mute.js",
-      "background/screenshot.js"
-    ],
-    "persistent": false
+    "service_worker": "background/sw.js"
   },
-  "commands": {
-    "mute": {
-      "description": "mute/unmute all tabs",
-      "suggested_key": {
-        "default": "Ctrl+M"
-      }
-    }
-  }
+  "permissions": [ "activeTab", "scripting", "storage" ]
 }
