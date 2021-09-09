@@ -1,0 +1,50 @@
+:root {
+    --header-height: 0 !important;
+}
+
+/*
+    global vars
+*/
+/*:root {
+    --background_page: #323232 !important;
+    --background_content: #646464 !important;
+    --text_primary: wheat !important;
+    --separator_common: #646464 !important;
+    --separator_alternate: #646464 !important;
+    --header-height: 0 !important;
+}*/
+
+#page_header_cont {
+    display: none !important;
+}
+
+#l_mk, #ads_left, .left_menu_nav_wrap {
+    display: none !important;
+}
+
+/*
+    hides "send audio" button
+*/
+/*button.im-send-btn_audio {
+    display: none !important;
+}*/
+
+.im-right-menu {
+    display: none !important;
+}
+
+.im-page--chat-input._im_chat_input_w {
+    border-bottom: none !important;
+}
+
+.im-page--chat-body-wrap-inner._im_peer_history_w {
+    padding-bottom: 0 !important;
+}
+
+.im-page_classic.im-page--chat-header-in {
+    border-radius: 0 !important;
+}
+
+#chat_onl_wrap {
+    display: none !important;
+}
