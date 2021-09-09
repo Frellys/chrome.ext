@@ -19,6 +19,12 @@
       "js": [
         "content/all_urls/mute.js"
       ]
+    },
+    {
+      "matches": [ "https://vk.com/im*" ],
+      "css": [
+        "content/vk.com/styles.css"
+      ]
     }
   ]
 }
