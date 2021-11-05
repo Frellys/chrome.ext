@@ -52,3 +52,7 @@ svg {
 #chat_onl_wrap {
     display: none !important;
 }
+
+.ConvoRecommendList {
+    display: none !important;
+}
