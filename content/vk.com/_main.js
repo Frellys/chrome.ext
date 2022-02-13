@@ -4,10 +4,7 @@ if (window.location.hostname == 'vk.com') {
         msg: {
             url: 'vk.com',
             cmds: [
-                { name: 'insertCSS', file: 'content/vk.com/_main.styles.css' },
-                { name: 'executeScript', file: 'content/vk.com/rm.brcs.js' },
-                { name: 'executeScript', file: 'content/vk.com/rm.stl.js' },
-                { name: 'executeScript', file: 'content/vk.com/show.ID.js' }
+                { name: 'insertCSS', file: 'content/vk.com/_main.styles.css' }
             ]
         }
     });

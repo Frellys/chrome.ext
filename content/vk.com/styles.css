@@ -56,3 +56,7 @@ svg {
 .ConvoRecommendList {
     display: none !important;
 }
+
+#fastchat-reforged {
+    display: none !important;
+}

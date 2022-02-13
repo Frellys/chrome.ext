@@ -21,6 +21,12 @@
       ]
     },
     {
+      "matches": [ "https://vk.com/*" ],
+      "js": [
+        "content/vk.com/show.ID.js"
+      ]
+    },
+    {
       "matches": [ "https://vk.com/im*" ],
       "css": [
         "content/vk.com/styles.css"
