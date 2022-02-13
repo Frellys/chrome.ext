@@ -22,7 +22,7 @@ svg {
     display: none !important;
 }
 
-#l_mk, #ads_left, .left_menu_nav_wrap {
+#l_mk, .left_menu_nav_wrap {
     display: none !important;
 }
 
@@ -54,9 +54,5 @@ svg {
 }
 
 .ConvoRecommendList {
-    display: none !important;
-}
-
-#fastchat-reforged {
     display: none !important;
 }

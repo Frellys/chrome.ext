@@ -24,6 +24,10 @@
       "matches": [ "https://vk.com/*" ],
       "js": [
         "content/vk.com/show.ID.js"
+      ],
+      "css": [
+        "content/vk.com/remove.ads_left.css",
+        "content/vk.com/remove.fastchat.css"
       ]
     },
     {
