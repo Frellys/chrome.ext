@@ -1,6 +1,7 @@
 .content {
     display: flex !important;
     flex-direction: row !important;
+    justify-content: space-between !important;
     padding: 1ch 0 !important;
     height: fit-content !important;
 }
@@ -21,6 +22,10 @@
         padding-top: 0 !important;
         padding-bottom: 0 !important;
     }
+
+div#global_actions {
+    position: unset !important;
+}
 
 .header_installsteam_btn.header_installsteam_btn_gray {
     display: none !important;
