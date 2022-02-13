@@ -30,6 +30,13 @@
       ]
     },
     {
+      "matches": [ "https://steamcommunity.com/id/*/inventory/*" ],
+      "run_at": "document_idle",
+      "js": [
+        "content/steam.com/get.salePrice.js"
+      ]
+    },
+    {
       "matches": [ "https://vk.com/*" ],
       "run_at": "document_idle",
       "js": [
