@@ -5,7 +5,7 @@ Google Chrome browser extension
 - mute.js - **"Ctrl + M"** to mute/unmute all tabs
 
 ### /steam.com
-- in progress ...
+- inventory.css - compact inventory page
 
 ### /vk.com
 - styles.css - styles obv

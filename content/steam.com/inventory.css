@@ -1,0 +1,92 @@
+.content {
+    display: flex !important;
+    flex-direction: row !important;
+    padding: 1ch 0 !important;
+    height: fit-content !important;
+}
+
+.logo {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.supernav_container {
+    position: unset !important;
+    display: flex !important;
+    flex-direction: row !important;
+    align-items: center !important;
+}
+
+    .supernav_container > a {
+        padding-top: 0 !important;
+        padding-bottom: 0 !important;
+    }
+
+.header_installsteam_btn.header_installsteam_btn_gray {
+    display: none !important;
+}
+
+.inventory_links {
+    margin: 0 0 1ch !important;
+}
+
+#games_list_public {
+    padding: 0 !important;
+}
+
+.games_list_tabs_ctn {
+    background: none !important;
+}
+
+.games_list_tab {
+    width: auto !important;
+    border: none !important;
+    border-radius: unset !important;
+    box-shadow: none !important;
+}
+
+.games_list_tab_name {
+    display: none !important;
+}
+
+.games_list_tab_separator,
+.games_list_tab_row_separator {
+    display: none !important;
+}
+
+#inventory_logos {
+    display: none !important;
+}
+
+#context_selector {
+    display: none !important;
+}
+
+.games_list_tabs_ctn.responsive_hidden {
+    margin-bottom: 0 !important;
+}
+
+#tabcontent_inventory {
+    margin-top: 1ch !important;
+    padding: 1ch !important;
+}
+
+.filter_ctn.inventory_filters {
+    margin-bottom: 0 !important;
+}
+
+#iteminfo0_content {
+    min-height: auto !important;
+}
+
+div[id*="_item_owner_actions"] {
+    display: none !important;
+}
+
+div[id*="_item_tags"] {
+    display: none !important;
+}
+
+div[id*="_scrap_content"] {
+    display: none !important;
+}

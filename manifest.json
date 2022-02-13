@@ -21,7 +21,17 @@
       ]
     },
     {
+      "matches": [ "https://steamcommunity.com/*" ],
+      "run_at": "document_idle",
+      "css": [
+        "content/steam.com/inventory.css",
+        "content/steam.com/remove.footer.css",
+        "content/steam.com/remove.profile_header.css"
+      ]
+    },
+    {
       "matches": [ "https://vk.com/*" ],
+      "run_at": "document_idle",
       "js": [
         "content/vk.com/show.ID.js"
       ],
@@ -32,6 +42,7 @@
     },
     {
       "matches": [ "https://vk.com/im*" ],
+      "run_at": "document_idle",
       "css": [
         "content/vk.com/styles.css"
       ]
