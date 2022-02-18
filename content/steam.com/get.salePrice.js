@@ -1,7 +1,7 @@
 window.addEventListener('click', function (e) {
     if (e.target.className === 'item_market_action_button_contents') {
         const links = document.querySelectorAll('a[href*="https://steamcommunity.com/market/listings"]');
-        const item_link = Array.from(links).filter(el => el.offsetParent).pop();
+        const item_link = Array.from(links).find(el => el.offsetParent);
         if (item_link) {
             fetch(item_link.href).then(r => r.text()).then(html => {
                 const id = html.split('ItemActivityTicker.Start(').pop().split(')').shift().trim();
