@@ -30,13 +30,6 @@
       ]
     },
     {
-      "matches": [ "https://steamcommunity.com/id/*/inventory/*" ],
-      "run_at": "document_idle",
-      "js": [
-        "content/steam.com/get.salePrice.js"
-      ]
-    },
-    {
       "matches": [ "https://vk.com/*" ],
       "run_at": "document_idle",
       "js": [
@@ -48,10 +41,17 @@
       ]
     },
     {
-      "matches": [ "https://vk.com/im*" ],
+      "matches": [ "https://steamcommunity.com/id/*/inventory/*" ],
+      "run_at": "document_idle",
+      "js": [
+        "content/steam.com/get.salePrice.js"
+      ]
+    },
+    {
+      "matches": [ "https://www.youtube.com/*" ],
       "run_at": "document_idle",
       "css": [
-        "content/vk.com/styles.css"
+        "content/youtube.com/styles.css"
       ]
     }
   ]

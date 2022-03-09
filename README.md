@@ -9,3 +9,6 @@ Google Chrome browser extension
 
 ### /vk.com
 - styles.css - styles obv
+
+### /youtube.com
+- styles.css - same
