@@ -1,8 +1,10 @@
 /*#actions,*/
+#menu-container,
 #comment-teaser,
 #header.ytd-rich-grid-renderer,
 #footer.ytd-guide-renderer,
 #voice-search-button,
+yt-related-chip-cloud-renderer,
 ytd-guide-signin-promo-renderer,
 #sections > ytd-guide-section-renderer:nth-last-child(2),
 #sections > ytd-guide-section-renderer:nth-last-child(3) {
