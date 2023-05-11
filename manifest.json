@@ -39,7 +39,7 @@
             ],
             "run_at": "document_idle",
             "js": [
-                "content/steam.com/get.salePrice.js"
+                "content/steam.com/set.salePrice.js"
             ]
         },
         {
@@ -49,6 +49,15 @@
             "run_at": "document_idle",
             "js": [
                 "content/steam.com/set.purchasePrice.js"
+            ]
+        },
+        {
+            "matches": [
+                "https://steamcommunity.com/id/*/gamecards/*"
+            ],
+            "run_at": "document_idle",
+            "js": [
+                "content/steam.com/move.buyCardsButton.js"
             ]
         },
         {
