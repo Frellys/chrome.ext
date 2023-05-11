@@ -6,7 +6,7 @@ Google Chrome browser extension
 
 ### /steam.com
 - inventory.css - compact inventory page
-- move.buyCardsButton.js - moves up 'buy remaining' button on gamecards page
+- move.buyCardsButton.js - moves up "buy remaining" button on gamecards page
 - set.purchasePrice.js - **"Ctrl + Q"** on multibuy page - sets the lowest current price and the deficient quantity
 - set.salePrice.js - sets the highest current price when selling inventory items
 
