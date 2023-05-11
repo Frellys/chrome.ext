@@ -1,8 +1,10 @@
-let core = {
+const core = {
     muted: false
 };
-chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
-    request.msg.cmds.forEach(function (cmd) {
+
+
+chrome.runtime.onMessage.addListener((request, sender, sendResponse) => {
+    request.msg.cmds.forEach((cmd) => {
         switch (cmd.name) {
             case 'insertCSS': {
                 chrome.tabs.insertCSS(sender.tab.id, { file: cmd.file, allFrames: true, cssOrigin: 'user' });
