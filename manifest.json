@@ -7,11 +7,15 @@
         "activeTab",
         "scripting",
         "storage",
-        "tabs"
+        "tabs",
+        "contextMenus"
     ],
     "background": {
         "service_worker": "background/sw.js"
     },
+    "host_permissions": [
+        "http://localhost:8080/*"
+    ],
     "content_scripts": [
         {
             "matches": [

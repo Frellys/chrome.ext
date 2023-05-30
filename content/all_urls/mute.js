@@ -1,5 +1,5 @@
 window.addEventListener('keypress', function (e) {
-    if (e.code === 'KeyM' && e.ctrlKey) {
+    if (e.ctrlKey && e.code === 'KeyM') {
         chrome.runtime.sendMessage({ cmd: 'mute' }, function (response) {
             //console.log(response);
         });

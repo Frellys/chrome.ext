@@ -4,13 +4,16 @@ const state = {
 
 
 const commands = {
-    mute: function () {
+    mute: () => {
         state.mute = !state.mute;
-        chrome.tabs.query({}, function (tabs) {
-            tabs.forEach(async function (t) {
-                await chrome.tabs.update(t.id, { muted: state.mute });
+        chrome.tabs.query({}, (tabs) => {
+            tabs.forEach(async function (tab) {
+                await chrome.tabs.update(tab.id, { muted: state.mute });
             });
         });
+    },
+    fetch: () => {
+        // TODO
     },
     default: function () { }
 };
@@ -26,6 +29,11 @@ chrome.runtime.onMessage.addListener(function (request, sender, sendResponse) {
         state
     });
 });
+
+// chrome.contextMenus.create({
+//     title: 'test',
+//     id: 'test'
+// });
 
 
 //chrome.commands.onCommand.addListener((command) => {
